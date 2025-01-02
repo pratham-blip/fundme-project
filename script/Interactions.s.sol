@@ -22,6 +22,7 @@ contract FundFundMe is Script {
             "FundMe",
             block.chainid
         );
+
         fundFundMe(mostRecentlyDeployed);
     }
 }
